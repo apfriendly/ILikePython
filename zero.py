@@ -122,3 +122,19 @@ if c > d:
 if a > c:
     a = c
 print(a)
+
+
+# Только +
+# Напишите программу, которая считывает три числа и подсчитывает сумму только положительных чисел.
+
+
+a = list()
+a.append(int(input()))
+a.append(int(input()))
+a.append(int(input()))
+s = 0
+for i in a:
+
+    if i >= 0:
+        s += i
+print(s)
